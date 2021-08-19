@@ -9,6 +9,7 @@
     "colors_background_2": "#F3F3F3",
     "type_header_font": "lato_n3",
     "type_body_font": "lato_n3",
+    "currency_code_enabled": false,
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -63,9 +64,9 @@
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
-          "show_social": false,
-          "enable_country_selector": true,
+          "newsletter_heading": "Meld je aan voor nieuws en aanbiedingen",
+          "show_social": true,
+          "enable_country_selector": false,
           "enable_language_selector": true,
           "payment_enable": true
         }
