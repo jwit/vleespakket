@@ -39,97 +39,63 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Grasgevoerd natuurvlees, biologisch en wild",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "text": "<p>Al het vlees in onze pakketten komt van Nederlandse veehouders die oog hebben voor de natuur, dierenwelzijn en die weten hoe vlees hoort te smaken. <\/p><p>Naast het rundvlees van onze eigen biologisch gecertificeerde Black Angus en Schotse Hooglander runderen, vind je in onze pakketten ook Oranjehoen kip, Veluws Landvarken, <br\/>Schoonebeeker Heideschapen en Veluws wild.<br\/><\/p>"
           }
         }
       },
       "block_order": [
         "heading",
-        "text",
-        "button"
+        "text"
       ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
       }
     },
-    "featured_products": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "collection": "all",
-        "products_to_show": 2,
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false
-      }
-    },
     "collage": {
       "type": "collage",
       "blocks": {
-        "video": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video for customers using screen readers",
-            "image_padding": false
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "secondary_background": false,
-            "second_image": false,
-            "image_padding": false
-          }
-        },
         "collection": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "rundvlees",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "eab6ca0e-7fc8-42d9-ba7e-5a82b0535a17": {
+          "type": "collection",
+          "settings": {
+            "collection": "wild",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "1e61b21b-f63b-4bca-a1c0-bf62b73771d1": {
+          "type": "collection",
+          "settings": {
+            "collection": "varken",
             "image_padding": false,
             "color_scheme": "background-1"
           }
         }
       },
       "block_order": [
-        "video",
-        "product",
-        "collection"
+        "collection",
+        "eab6ca0e-7fc8-42d9-ba7e-5a82b0535a17",
+        "1e61b21b-f63b-4bca-a1c0-bf62b73771d1"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "Onze vleespakketten",
         "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
+        "mobile_layout": "column"
       }
     },
     "multi_column": {
@@ -163,12 +129,143 @@
         "column3"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "Wat onze klanten zeggen",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "1629369397db68f4ca": {
+      "type": "newsletter",
+      "blocks": {
+        "1629369397db68f4ca-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Schrijf je in voor onze nieuwsbrief"
+          }
+        },
+        "1629369397db68f4ca-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Ontvang aanbiedingen en informatie over nieuwe producten<\/p>"
+          }
+        },
+        "1629369397db68f4ca-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1629369397db68f4ca-0",
+        "1629369397db68f4ca-1",
+        "1629369397db68f4ca-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true
+      }
+    },
+    "1629374576479c0d2b": {
+      "type": "image-with-text",
+      "blocks": {
+        "1629374576479c0d2b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Samenwerken met de natuur"
+          }
+        },
+        "1629374576479c0d2b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1629374576479c0d2b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Meer over onze dieren",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "1629374576479c0d2b-0",
+        "1629374576479c0d2b-1",
+        "1629374576479c0d2b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/schoonebeeker-heideschaap-lamsvlees-schapenvlees.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1629374593e1f640ae": {
+      "type": "multicolumn",
+      "blocks": {
+        "1629374593e1f640ae-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1629374593e1f640ae-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1629374593e1f640ae-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1224890b-0a49-4e69-af83-b9a28f6efe0a": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "239cd4c6-27d8-4646-963e-25c29805f963": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "5c1ee156-0563-40fc-976b-001927d0b94d": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1629374593e1f640ae-0",
+        "1629374593e1f640ae-1",
+        "1629374593e1f640ae-2",
+        "1224890b-0a49-4e69-af83-b9a28f6efe0a",
+        "239cd4c6-27d8-4646-963e-25c29805f963",
+        "5c1ee156-0563-40fc-976b-001927d0b94d"
+      ],
+      "settings": {
+        "title": "De service van Vleespakket.nl",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
       }
@@ -177,9 +274,10 @@
   "order": [
     "image_banner",
     "rich_text",
-    "featured_products",
     "collage",
-    "video",
-    "multi_column"
+    "multi_column",
+    "1629369397db68f4ca",
+    "1629374576479c0d2b",
+    "1629374593e1f640ae"
   ]
 }
