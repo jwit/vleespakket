@@ -1,15 +1,17 @@
 {
   "current": {
     "colors_solid_button_labels": "#FFFFFF",
-    "colors_accent_1": "#121212",
-    "colors_accent_2": "#334FB4",
+    "colors_accent_1": "#ff0000",
+    "colors_accent_2": "#121212",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#FFFFFF",
     "colors_background_2": "#F3F3F3",
-    "type_header_font": "lato_n3",
-    "type_body_font": "lato_n3",
-    "currency_code_enabled": false,
+    "type_header_font": "montserrat_n5",
+    "type_body_font": "source_sans_pro_n4",
+    "sale_badge_color_scheme": "accent-1",
+    "currency_code_enabled": true,
+    "checkout_logo_image": "shopify:\/\/shop_images\/vleespakket-logo.png",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -17,9 +19,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welkom in onze winkel",
+              "text": "Meld je aan en ontvang €5 korting op je eerste bestelling",
               "color_scheme": "background-1",
-              "link": ""
+              "link": "#"
             }
           }
         },
